@@ -1,0 +1,38 @@
+Real Racing 3 v3.6.3 for PS Vita - third-party components / componentes de terceros
+==================================================================================
+
+eboot.bin (game program / programa del juego)
+---------------------------------------------
+- vitaGL (Rinnegatamante) - LGPL-3.0 - MODIFIED: upstream commit cd3791e29ff7f1c0ab349f12c7231f4871ce6a75
+  + vitaGL/vitaGL_rr3_v3.6.3.patch. https://github.com/Rinnegatamante/vitaGL
+  Texts: licencias/LGPL-3.0.txt, licencias/GPL-3.0.txt
+- vitaShaRK (Rinnegatamante) - LGPL-3.0 - unmodified. https://github.com/Rinnegatamante/vitaShaRK
+- mpg123 - LGPL-2.1 - unmodified. https://www.mpg123.de/  Text: licencias/LGPL-2.1.txt
+- SceShaccCgExt - unmodified (VitaSDK package). License: see its upstream repository.
+- math-neon (mathneon) - unmodified (VitaSDK package). License: see its upstream repository.
+- kubridge (stub) - unmodified (VitaSDK package). License: see its upstream repository.
+- OpenSSL 1.0.2i - unmodified (VitaSDK package). OpenSSL License and original SSLeay License.
+  This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit.
+  (http://www.openssl.org/)
+  This product includes cryptographic software written by Eric Young (eay@cryptsoft.com).
+- libpng 1.6.58 - PNG Reference Library License. http://www.libpng.org/pub/png/libpng.html
+- zlib 1.3.2 - zlib License. https://zlib.net/
+- libstdc++ / libgcc (GCC) - GPL-3.0 with the GCC Runtime Library Exception.
+- newlib (VitaSDK C library) - BSD-style licenses. https://sourceware.org/newlib/
+
+configurador.bin (configurator / configurador)
+----------------------------------------------
+- libvita2d - unmodified (VitaSDK package). License: see https://github.com/xerpi/libvita2d
+- libcurl 8.17.0 - curl License. https://curl.se/docs/copyright.html
+- OpenSSL 1.0.2i - see above (same acknowledgments apply).
+- zstd - BSD License. https://github.com/facebook/zstd
+- libjpeg-turbo - see licencias/libjpeg-turbo_LICENSE.md
+- libpng, zlib - see above.
+- stb_truetype (Sean Barrett) - public domain / MIT (dual). https://github.com/nothings/stb
+
+Fonts in the VPK / fuentes del VPK
+----------------------------------
+- NanumGothic.ttf - SIL Open Font License 1.1 (fuentes/LICENCIA_NanumGothic_OFL.txt inside the VPK)
+- DroidSansFallback.ttf - Apache License 2.0 (fuentes/LICENCIA_DroidSansFallback.txt inside the VPK)
+
+Real Racing 3 is property of Electronic Arts. No EA files are included in the VPKs or in this package.

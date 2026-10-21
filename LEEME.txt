@@ -1,0 +1,24 @@
+REAL RACING 3 v3.6.3 PARA PS VITA - ARCHIVOS PARA PUBLICAR (21/10/2026, con cumplimiento LGPL)
+
+A) RELEASE NUEVO EN GITHUB (Releases > Draft a new release; etiqueta y titulo, p. ej. Update3.6.3)
+   Adjuntar SIN cambiar nombres:
+     - github/rr3_version_9.txt, github/eboot.bin, github/configurador.bin   (actualizacion automatica)
+     - RR3_v3.6.3_reemplaza_la_1.4.0.vpk y RR3_v3.6.3_junto_a_la_1.4.0.vpk  (instalar a mano; llevan licencias/)
+     - RR3_v3.6.3_LGPL.zip                                                     (codigo de vitaGL + reenlazado)
+   Descripcion: pegar NOTAS_GITHUB.md.
+
+B) REPOSITORIO (pagina principal, una sola vez)
+   - Subir THIRD_PARTY_LICENSES.txt a la raiz (Add file > Upload files).
+   - Editar README.md (el lapiz) y pegar al final SECCION_PARA_EL_README.md. NO subir ningun otro archivo llamado
+     README.md a la raiz: reemplazaria el del repositorio. (El README.md del paquete LGPL va DENTRO del zip.)
+
+C) VITADB (issue Rinnegatamante/VitaDB-contributions#129)
+   - Responder con el enlace al release y a RR3_v3.6.3_LGPL.zip.
+
+HUELLAS (md5)
+52d4d9a4cc8b175a72c9775a6147a20e  github/configurador.bin
+fb6c68241775fce8428e53766c088b6c  github/eboot.bin
+2261eec1ea26c7bc9d3d444c97d8da3f  github/rr3_version_9.txt
+0a99b39e260932bb660fd6d2a50f3817  RR3_v3.6.3_junto_a_la_1.4.0.vpk
+99a94bdf6308bb7dcd9e7ce8694d1760  RR3_v3.6.3_reemplaza_la_1.4.0.vpk
+1726f7d9879d87db99b23f27a16cbbe3  RR3_v3.6.3_LGPL.zip
